@@ -12,11 +12,6 @@ class EnterPrompt extends Component
     public $inputText;
     public $resultImage;
 
-    // public function render()
-    // {
-    //     return view('livewire.enter-prompt');
-    // }
-
     public function makeQuery()
     {
         $data = ["inputs" => $this->inputText]; // Use the user input

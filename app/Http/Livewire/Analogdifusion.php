@@ -12,7 +12,7 @@ class Analogdifusion extends Component
 
     public function makeQuery()
     {
-        $data = ["inputs" => $this->inputData]; // Use the user input
+        $data = ["inputs" => $this->inputData]; 
         $apiUrlAnalog = "https://api-inference.huggingface.co/models/wavymulder/Analog-Diffusion";
         $apiTokenAnalog = "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";
 
