@@ -6,7 +6,7 @@ use Livewire\Component;
 use GuzzleHttp\Client;
 
 
-class EnterPrompt extends Component
+class Epicdifusion extends Component
 {
    
     public $inputText;
