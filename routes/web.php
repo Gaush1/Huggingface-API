@@ -28,7 +28,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
     
-    Route::get('/dashboard/epicdifusion', EnterPrompt::class)->name('enter-prompt');
+    Route::get('/dashboard/epicdifusion', Epicdifusion::class)->name('enter-prompt');
     Route::get('/dashboard/analogdifusion', Analogdifusion::class)->name('analogdifusion');
 
 });
