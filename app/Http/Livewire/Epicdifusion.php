@@ -16,7 +16,7 @@ class Epicdifusion extends Component
     {
         $data = ["inputs" => $this->inputText]; // Use the user input
         $apiUrl = "https://api-inference.huggingface.co/models/johnslegers/epic-diffusion";
-        $apiToken = "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";
+        $apiToken = "";
 
         $headers = [
             'Authorization' => 'Bearer ' . $apiToken,
