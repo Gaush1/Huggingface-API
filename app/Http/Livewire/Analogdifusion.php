@@ -14,7 +14,7 @@ class Analogdifusion extends Component
     {
         $data = ["inputs" => $this->inputData]; 
         $apiUrlAnalog = "https://api-inference.huggingface.co/models/wavymulder/Analog-Diffusion";
-        $apiTokenAnalog = "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";
+        $apiTokenAnalog = "";
 
         $headersAnalog = [
             'Authorization' => 'Bearer ' . $apiTokenAnalog,
